@@ -1,0 +1,10 @@
+To enable via Regedit :
+
+Registry Key to change: 
+[HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel\Security]
+"VBAWarnings"=dword:00000001
+
+Registry Option Values:
+ •1 = Enable all macros (not recommended; potentially dangerous code can run)
+
+
